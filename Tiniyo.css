@@ -1,0 +1,71 @@
+    * {
+        background: #f1faee;
+        text-decoration: none;
+        font-family: "Colfax", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    h1 {
+        position: relative;
+        z-index: 1;
+        float: none;
+        margin: 0 auto;
+        margin-top: 6.5em;
+        background-size: 175px 60px;
+        width: 175px;
+        height: 60px;
+    }
+    
+    #inform {
+        margin: 20px auto;
+        max-width: 700px;
+    }
+    
+    button {
+        display: block;
+        background: #06a82c;
+        border-radius: 4px;
+        box-shadow: 0px 2px 1px 0px #E5E5E5;
+        padding: 14px;
+        font-size: 16px;
+        color: #FFFFFF;
+        border: 0;
+    }
+    
+    #passcolor {
+        color: rgb(61, 143, 238)
+    }
+    
+    button:hover {
+        display: block;
+        background: #048A24;
+        border-radius: 4px;
+        box-shadow: 0px 2px 1px 0px #E5E5E5;
+        padding: 14px;
+        font-size: 16px;
+        color: #FFFFFF;
+        border: 0;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+    
+    input {
+        display: inline-block;
+        height: 18px;
+        padding: 4px 6px;
+        margin-bottom: 9px;
+        font-size: 13px;
+        line-height: 18px;
+        color: #555;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        vertical-align: middle;
+    }
