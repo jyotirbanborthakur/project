@@ -11,29 +11,31 @@
 </head>
 
 <body>
-    <h1>Tiniyo</h1>
-    <div class="container">
-        <div id="inform"></div>
+
+    <h1></h1>
+
+    <div id="container">
         <form action="signup">
-
-            <hr>
-            <label for="email" id="labels">EMAIL</label>
-            <p><input type="email" id="email" placeholder="Enter your email" method="post"></p>
-            <label for="password" id="labels">PASSWORD</label>
-            <a href="#" id="passcolor">Forgot your password?</a>
-            <p>
-                <input type="password" id="password" placeholder="enter password" method="post">
-            </p>
-            <button id="SignInButton" method="post">Sign In</button>
-            <hr>
-            <p id="labels">Use Google, Okta, OneLogin, or SAML?</p>
-            <button id="SignInButton2" method="post"><i class="fas fa-lock"></i>
+            <div id="inform">
+                <hr>
+                <label for="email" id="labels">EMAIL</label>
+                <p>
+                    <input type="email" id="email" placeholder="Enter your email" method="post"></p>
+                <label for="password" id="labels">PASSWORD</label>
+                <a href="#" id="passcolor">Forgot your password?</a>
+                <p>
+                    <input type="password" id="password" placeholder="enter password" method="post">
+                </p>
+                <button id="SignInButton" method="post">Sign In</button>
+                <hr id="bottom">
+                <p id="labels">Use Google, Okta, OneLogin, or SAML?</p>
+                <button id="SignInButton2" method="post"><i class="fas fa-lock"></i>
             Sign In With Your Identity Provider</button>
-            <p id="labels">Not a Customer?<a href="#" id="passcolor">Try for Free</a></p>
-
+                <p id="labels">Not a Customer? <a href="#" id="passcolor">Try for Free</a></p>
+            </div>
         </form>
     </div>
-    </div>
+
 </body>
 
 </html>
